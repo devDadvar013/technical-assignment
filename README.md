@@ -5,9 +5,7 @@ A Next.js landing page with scroll-driven interactions, built as a Frontend Tech
 ## Links
 
 - **GitHub:** [github.com/devDadvar013/technical-assignment](https://github.com/devDadvar013/technical-assignment)
-- **Live Demo:** [Deploy to Vercel](#deploy-on-vercel) (see instructions below)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FdevDadvar013%2Ftechnical-assignment&project-name=technical-assignment&framework=nextjs)
+- **Live Demo:** [technical-assignment-eight.vercel.app](https://technical-assignment-eight.vercel.app/)
 
 ## Project Overview
 
@@ -42,28 +40,6 @@ npm run build
 npm start
 ```
 
-## Deploy on Vercel
-
-### Option 1 — One-click (recommended)
-
-Click the **Deploy with Vercel** button above, sign in, and confirm import from GitHub. Vercel auto-detects Next.js settings.
-
-### Option 2 — Vercel Dashboard
-
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import `devDadvar013/technical-assignment`
-3. Keep default settings (Framework: Next.js)
-4. Click **Deploy**
-
-### Option 3 — Vercel CLI
-
-```bash
-npx vercel login
-npx vercel --prod
-```
-
-After deploy, add your live URL here: `https://your-project.vercel.app`
-
 ## Interactive Scrolling Features
 
 | Feature | Implementation |
@@ -92,7 +68,7 @@ Built with assistance from **Cursor AI (Claude)**.
 | **Components** | Initial section components with Framer Motion | Journey scroll fix, hydration fixes, Tailwind refactor |
 | **Custom hooks** | Scroll animation patterns | Journey step progress synced to container scroll |
 | **CSS / styling** | Tailwind class mappings | Responsive breakpoints, hover states |
-| **README** | Documentation structure | Added deploy instructions, design decisions |
+| **README** | Documentation structure | Design decisions, live demo link |
 | **Creative concept** | NovaPay fintech storytelling theme | Finalized copy and section content |
 
 ## Project Structure
