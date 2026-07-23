@@ -1,4 +1,4 @@
-import type { Feature, FloatingOrb, JourneyStep, NavLink, PhoneScreen, TrustItem } from '@/types';
+import type { Feature, FloatingOrb, JourneyStep, NavLink, PhoneScreen, Stat, TrustItem } from '@/types';
 
 export const navLinks: NavLink[] = [
   { label: 'Features', href: '#features' },
@@ -95,4 +95,39 @@ export const trustItems: TrustItem[] = [
   { label: '4.9/5 rating', icon: 'star' },
   { label: 'Bank-level security', icon: 'shield' },
   { label: 'Free forever plan', icon: 'plus' },
+];
+
+export const stats: Stat[] = [
+  {
+    icon: '👥',
+    value: 2,
+    suffix: 'M+',
+    label: 'Active Users',
+    sublabel: 'And growing every day',
+    color: '#6c5ce7',
+  },
+  {
+    icon: '💰',
+    value: 50,
+    prefix: '$',
+    suffix: 'B',
+    label: 'Processed',
+    sublabel: 'In secure transactions',
+    color: '#00cec9',
+  },
+  {
+    icon: '🌍',
+    value: 150,
+    suffix: '+',
+    label: 'Countries',
+    sublabel: 'Global coverage',
+    color: '#fd79a8',
+  },
+  {
+    icon: '⭐',
+    value: 4.9,
+    label: 'User Rating',
+    sublabel: 'Across 100k+ reviews',
+    color: '#fdcb6e',
+  },
 ];
