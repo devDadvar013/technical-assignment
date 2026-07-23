@@ -1,4 +1,13 @@
-import type { Feature, FloatingOrb, JourneyStep, NavLink, PhoneScreen, TrustItem } from '@/types';
+import type {
+  Feature,
+  FloatingOrb,
+  JourneyStep,
+  NavLink,
+  PhoneScreen,
+  Stat,
+  Testimonial,
+  TrustItem,
+} from '@/types';
 
 export const navLinks: NavLink[] = [
   { label: 'Features', href: '#features' },
@@ -95,4 +104,69 @@ export const trustItems: TrustItem[] = [
   { label: '4.9/5 rating', icon: 'star' },
   { label: 'Bank-level security', icon: 'shield' },
   { label: 'Free forever plan', icon: 'plus' },
+];
+
+export const stats: Stat[] = [
+  {
+    icon: '👥',
+    value: 2,
+    suffix: 'M+',
+    label: 'Active Users',
+    sublabel: 'And growing every day',
+    color: '#6c5ce7',
+  },
+  {
+    icon: '💰',
+    value: 50,
+    prefix: '$',
+    suffix: 'B',
+    label: 'Processed',
+    sublabel: 'In secure transactions',
+    color: '#00cec9',
+  },
+  {
+    icon: '🌍',
+    value: 150,
+    suffix: '+',
+    label: 'Countries',
+    sublabel: 'Global coverage',
+    color: '#fd79a8',
+  },
+  {
+    icon: '⭐',
+    value: 4.9,
+    label: 'User Rating',
+    sublabel: 'Across 100k+ reviews',
+    color: '#fdcb6e',
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    quote:
+      'NovaPay transformed how I manage my finances. The interface is gorgeous and the insights are actually useful — not just noise.',
+    name: 'Sarah Chen',
+    role: 'Product Designer at Linear',
+    initials: 'SC',
+    rating: 5,
+    color: '#6c5ce7',
+  },
+  {
+    quote:
+      'I use NovaPay daily for client payments across timezones. The instant transfers and low fees are unbeatable — period.',
+    name: 'Marcus Rivera',
+    role: 'Independent Developer',
+    initials: 'MR',
+    rating: 5,
+    color: '#00cec9',
+  },
+  {
+    quote:
+      "Finally a banking app that doesn't feel like it's from 2010. The goal tracking keeps me motivated and the virtual cards are a game-changer.",
+    name: 'Aisha Patel',
+    role: 'Founder, Bloom Coffee',
+    initials: 'AP',
+    rating: 5,
+    color: '#fd79a8',
+  },
 ];

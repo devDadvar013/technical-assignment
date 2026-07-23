@@ -36,3 +36,22 @@ export interface TrustItem {
   label: string;
   icon: 'star' | 'shield' | 'plus';
 }
+
+export interface Stat {
+  icon: string;
+  value: number;
+  prefix?: string;
+  suffix?: string;
+  label: string;
+  sublabel: string;
+  color: string;
+}
+
+export interface Testimonial {
+  quote: string;
+  name: string;
+  role: string;
+  initials: string;
+  rating: number;
+  color: string;
+}
