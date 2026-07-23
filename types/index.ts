@@ -46,3 +46,12 @@ export interface Stat {
   sublabel: string;
   color: string;
 }
+
+export interface Testimonial {
+  quote: string;
+  name: string;
+  role: string;
+  initials: string;
+  rating: number;
+  color: string;
+}
